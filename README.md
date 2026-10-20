@@ -7,10 +7,10 @@
 #
 # Feature:
 #   Players are automatically sent back to spawn if they fall into the void.
-
-## Installation
-# 1. Build the plugin with Maven:
-#    mvn clean package
-# 2. Place the generated JAR from target/ into your Paper/Spigot plugins folder.
-# 3. Start the server and use /setspawn once.
-# 4. Use /spawn to teleport.
+#
+# Build with Gradle:
+#   gradle clean build
+#
+# Then place the generated JAR from build/libs/ into your Paper/Spigot plugins folder.
+#
+# Start the server and use /setspawn once.
