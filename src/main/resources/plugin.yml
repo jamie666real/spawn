@@ -1,0 +1,11 @@
+name: SpawnPlugin
+version: '26.3'
+main: com.jamie666real.spawn.SpawnPlugin
+api-version: '1.20'
+commands:
+  setspawn:
+    description: Set the server spawn location.
+    usage: /setspawn
+  spawn:
+    description: Teleport to the spawn location.
+    usage: /spawn
